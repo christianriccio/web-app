@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv('./.flaskenv')
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='/Users/christianriccio/Desktop/workspace/web-app/static', template_folder='/Users/christianriccio/Desktop/workspace/web-app/templates')
 
 @app.route('/')
 def index():
