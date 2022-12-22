@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, flash, redirect
 from dotenv import load_dotenv
 from forms import RegistrationForm, LoginForm
 
@@ -30,9 +30,12 @@ def home():
 def about():
     return render_template('about.html', title = 'About')
 
-@app.route('/register')
+@app.route('/register', methods = ['GET', 'POST'])
 def register():
     form = RegistrationForm()
+    if form.validate_on_submit():
+        flash(f'Account creted for {form.username.data}!', 'success')
+        return redirect(url_for('home'))
     return render_template('register.html', title = 'Register', form = form)
 
 @app.route('/login')
