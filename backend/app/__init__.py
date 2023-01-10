@@ -1,4 +1,3 @@
-#import os
 from flask import Flask
 from dotenv import load_dotenv
 from flask_bcrypt import Bcrypt
@@ -20,18 +19,8 @@ bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
 login_manager.login_view = 'users.login'
 login_manager.login_message_category = 'info'
-#app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
-#app.config['MAIL_PORT'] = 465 #587
-#app.config['MAIL_USE_TLS'] = False
-#app.config['MAIL_USE_SSL'] = True
-#app.config['MAIL_USERNAME'] = os.environ.get('EMAIL_USER')
-#app.config['MAIL_PASSWORD'] = os.environ.get('EMAIL_PASS')
-app.config['MAIL_SERVER']='smtp.mailtrap.io'
-app.config['MAIL_PORT'] = 2525
-app.config['MAIL_USERNAME'] = '452f06fcf4a540'
-app.config['MAIL_PASSWORD'] = '06d30a4c22548a'
-app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USE_SSL'] = False
+
+
 mail = Mail(app)
 migrate = Migrate(app, db)
 
@@ -42,4 +31,3 @@ from app.posts.routes import posts
 app.register_blueprint(users)
 app.register_blueprint(posts)
 app.register_blueprint(main)
-
