@@ -1,0 +1,58 @@
+alembic==1.9.1
+astroid==2.12.13
+bcrypt @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b550nfy8c3/croots/recipe/bcrypt_1659554333520/work
+blinker==1.5
+certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_477u68wvzm/croot/certifi_1671487773341/work/certifi
+cffi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1b0qzba5nr/croot/cffi_1670423213150/work
+click @ file:///opt/concourse/worker/volumes/live/17ca243b-fc66-462b-4bc1-f11ad524e336/volume/click_1646056621177/work
+cryptography @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3evwafgyg8/croot/cryptography_1665612651044/work
+dill==0.3.6
+dnspython @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_6ecjb_0rcu/croots/recipe/dnspython_1659712640473/work
+email-validator @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_22o5q5yf22/croots/recipe/email-validator-meta_1659798161769/work
+flake8 @ file:///opt/conda/conda-bld/flake8_1648129545443/work
+Flask==2.2.2
+Flask-Bcrypt @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_284a6h8c1b/croot/flask-bcrypt_1669799292127/work
+Flask-Login @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_19laizasht/croot/flask-login_1669052136940/work
+Flask-Mail==0.9.1
+flask-marshmallow==0.14.0
+Flask-Migrate==4.0.0
+Flask-SQLAlchemy==3.0.2
+Flask-WTF @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_2c16atfmk0/croot/flask-wtf_1668812517397/work
+greenlet @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_dd2bsq3kkw/croot/greenlet_1670513229760/work
+idna @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_00jf0h4zbt/croot/idna_1666125573348/work
+importlib-metadata @ file:///opt/concourse/worker/volumes/live/04344671-a59e-4800-6391-124f9c0e5484/volume/importlib-metadata_1648562417587/work
+isort==5.11.4
+itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
+Jinja2 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_6adj7x0ejx/croot/jinja2_1666908137966/work
+lazy-object-proxy==1.8.0
+Mako==1.2.4
+MarkupSafe @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_d4a9444f-bd4c-4043-b47d-cede33979b0fve7bm42r/croots/recipe/markupsafe_1654597878200/work
+marshmallow==3.19.0
+marshmallow-sqlalchemy==0.28.1
+mccabe @ file:///opt/conda/conda-bld/mccabe_1644221741721/work
+mypy==0.991
+mypy-extensions==0.4.3
+mysqlclient @ file:///opt/concourse/worker/volumes/live/3e2c08bc-c6d4-44b9-6985-8c1059f99ec2/volume/mysqlclient_1609786255460/work
+packaging==22.0
+Pillow==9.3.0
+platformdirs==2.6.0
+pycodestyle @ file:///tmp/build/80754af9/pycodestyle_1636635402688/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyflakes @ file:///tmp/build/80754af9/pyflakes_1636644436481/work
+pylint==2.15.9
+pylint-flask==0.6
+pylint-flask-sqlalchemy==0.2.0
+pylint-plugin-utils==0.7
+python-dotenv @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_ebulf7sz20/croot/python-dotenv_1669132564141/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+SQLAlchemy==1.4.45
+sqlalchemy-stubs==0.4
+svgwrite==1.4.3
+tomli==2.0.1
+tomlkit==0.11.6
+Tree==0.2.4
+typing_extensions==4.4.0
+Werkzeug==2.2.2
+wrapt==1.14.1
+WTForms @ file:///Users/ktietz/demo/mc3/conda-bld/wtforms_1629354749392/work
+zipp @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b279673d-f037-44c7-8773-c5a6b6f51037d3wfr9cq/croots/recipe/zipp_1652341773612/work
